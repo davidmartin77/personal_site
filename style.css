@@ -1,11 +1,21 @@
 .AboutMe {
-	background-color: lightgray;
 	color: black;
+	font-size: 18px;	
 	font-family: helvetica;
 	text-align: center;
 }
 
-.AboutMe__Text {
+.AboutMe__Text--top {
+	font-family: helvetica;
+	font-weight: bold;
+	padding-right: 15cm;	
+	background-image: url(typewriter.jpg);
+	background-size: 600px 400px;	
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.AboutMe__Text--bottom {
 	font-family: helvetica;
 	font-weight: bold;
 }
@@ -27,6 +37,7 @@
 	background-color: lightblue;
 	font-family: helvetica;
 	font-style: italic;
+	font-size: 10px;
 }
 .navigation__oddsandends {
 	text-align: right;
@@ -36,6 +47,5 @@
 	text-align: right;
 }
 .socialmedia {
-	padding-left: 20cm;	
-	margin-top: 5cm;	
+	padding-left: 2cm;	
 }
