@@ -73,6 +73,27 @@ display: -webkit-flex;
 	padding-top: 20px;
 	padding-bottom: 120px;
 }
+.more {
+	display: -webkit-flex;
+	-webkit-flex: flex-start;
+	font-style: "garamond";
+	font-size: 18px;
 
-
+}
+.bottomlinks {
+	display: -webkit-flex;
+}
+.bottomlinks__twitter {
+	display: -webkit-flex;
+	-webkit-flex: flex-start;
+	padding-top: 50px;
+	font-family: "arial", sans-serif;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+.bottomlinks__other {
+	padding-top: 50px;
+	padding-left: 200px;
+}
 
