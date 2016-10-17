@@ -1,0 +1,5 @@
+.animals {
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	}
+

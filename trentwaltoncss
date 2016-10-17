@@ -1,0 +1,47 @@
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	width: 250px;
+	height 250px;
+
+.TWlogo {
+	align: left;
+	height: 5px;
+	width: 5px;
+}
+
+.a {
+	font: red;
+
+.header {
+	align: right;
+	font: arial;
+	font-size: 12px;
+}
+
+.MAIN {
+	align: center;
+	font: Times;
+	font-size: 100px;
+	line-height: 1.5;
+	border-width: 200px;	
+}
+.a {
+	color: red;
+}
+
+/*need to create a line across the page above 
+and below each of the images and descriptions*/
+
+.content__image {
+	align: left;
+}
+
+.content__text {
+	align: right;
+	font: Times;
+	font-size: 16;
+	margin: auto;
+}
+
+}
