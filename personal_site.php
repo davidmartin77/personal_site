@@ -67,10 +67,6 @@
 
 
 
-
-		<?php if currentpage = "home";
-
-
 	<div class = "navigation__pageitem">
  	<a href = "aspirations.html"> <h1> Aspirations </h1>
 	</a>
