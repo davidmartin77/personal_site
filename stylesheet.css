@@ -14,12 +14,6 @@ hr {
 	border-width: 2px;
 }
 
-.topimages__item {
-	padding-top: 10px;
-	width: 350px;
-	height: 200px;
-}
-
 p {
 	font-size: 28px;
 	font-family: arial, sans-serif;
@@ -38,6 +32,16 @@ h1 {
 	font-family: arial, sans-serif;
 	color: #777478;
 	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.topimages__item {
+	padding-top: 10px;
+	width: 350px;
+	height: 200px;
 }
 
 .navigation {
