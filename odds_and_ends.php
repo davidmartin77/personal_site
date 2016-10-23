@@ -9,7 +9,7 @@ aspirations
 <body> 
 
 	<div = topimages>
-		<img src="santorini.png" class="topimages__item">
+		<img src="code/personal_site/santorini.png" class="topimages__item">
 	</div>	
 
 	<div class = "OddsandEnds">	

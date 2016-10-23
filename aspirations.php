@@ -4,18 +4,22 @@
 	<title> David Martin's Personal Site </title>
 </head>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 <body>
 
-<img src="computer code.jpg" class= style="width:360px;height:240px;">
+	<div class = "header">
+
+		<div class = "topimages">
+			<img src="computer code.jpg" class="topimages__item">
+		</div>	
 
 	<Div class = "Aspirations">
-	<h1> Aspirations </h1>
+		<h1> Aspirations </h1>
+
+		<p> My professional goals are straightforward. I want to learn coding and make a career change. I'm hoping coding has some of the same elements that I loved about journalism: learning, writing and creativity. As someone who has never coded before, this decision is comes with a good deal of anxiety and uncertainty. After all, I am absolute beginner and not even a "digital native." I look forward to the day when I know enough to make a contribution somewhere. </p> 
+
 	</Div>
-
-	<p> My professional goals are straightforward. I want to learn coding and make a career change. I'm hoping coding has some of the same elements that I loved about journalism: learning, writing and creativity. As someone who has never coded before, this decision is comes with a good deal of anxiety and uncertainty. After all, I am absolute beginner and not even a "digital native." I look forward to the day when I know enough to make a contribution somewhere.  
-
 
 	<div class = "navigation">	
 	
@@ -43,9 +47,6 @@
 
 	<div class = "navigation">
 
-		<div> Pages </div>
-
-		<ul> PagesList 
 
 			<li> <a class="pagesList__pagesItem <?php isCurrentPage("Home", $currentPage); ?> " href="personal_site.php">
            		Home </a>          		
@@ -93,7 +94,7 @@
 	</div>
 
 <div class = socialmedia__twitter>	
-	<img src="Twitter logo.png" style="width:18px;height:12px;">
+	<img src="Twitter logo.png">
 	<a href = "https://twitter.com/Stories_Live"> <p> Twitter </p>
 	</a>
 	</div>

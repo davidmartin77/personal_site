@@ -13,6 +13,9 @@ hr {
 	border-style: inset;
 	border-width: 2px;
 }
+h1	{
+	font-size: 42px;
+	}
 
 p {
 	font-size: 28px;
