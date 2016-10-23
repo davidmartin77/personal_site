@@ -16,6 +16,8 @@
 			<img src="computer code.jpg" class="topimages__item">
 			<img src="computer code.jpg" class="topimages__item">
 		</div>	
+		
+	</div>	
 
 	<Div class = "Topic">
 

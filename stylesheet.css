@@ -37,7 +37,11 @@ h1 {
 a {
 	text-decoration: none;
 }
-
+.topimages {
+	padding-top: 10px;
+	width: 350px;
+	height: 200px;
+}
 .topimages__item {
 	padding-top: 10px;
 	width: 350px;
