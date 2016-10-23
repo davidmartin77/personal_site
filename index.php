@@ -31,7 +31,7 @@
 	
 	</div>
 
-		<div class = "AboutMe">
+		<div class = "Topic">
 
 			<p>I'm an award-winning <em>investigative producer</em> and <em>storyteller</em> with extensive experience researching and executing major projects from conception to post production. Strong expertise in health and wellness. Successful at producing entertaining, character driven stories on complex issues. </p>
 	</div>		

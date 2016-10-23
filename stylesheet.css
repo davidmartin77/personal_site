@@ -13,9 +13,6 @@ hr {
 	border-style: inset;
 	border-width: 2px;
 }
-h1	{
-	font-size: 42px;
-	}
 
 p {
 	font-size: 28px;
@@ -45,6 +42,10 @@ a {
 	padding-top: 10px;
 	width: 350px;
 	height: 200px;
+}
+
+.topic__header {
+	font-size: 40px;
 }
 
 .navigation {
