@@ -23,13 +23,13 @@
  
  </div>
 
-	<div class = "navigation">	
-
+<div class = "navigation">	
+	
 			<a class = "navigation__item" <?php if ($thisPage=="Index") {echo " id=\"navigation__item--currentPage\"";} ?> href = "index.php">
 				Home
 			</a>
 
-			<a class = "navigation__item">
+		<div class = "navigation__item">
 			<a href = "aspirations.php">
 				<h1> Aspirations </h1>
 			</a>
@@ -42,6 +42,8 @@
 		</div>
 
 	</div>
+
+	
 
 </body>
 </html>
