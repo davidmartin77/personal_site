@@ -75,7 +75,9 @@
 
 	<div class = "navigation">	
 	
-			<a class = "navigation__item" <?php if ($thisPage=="Index") {echo " id=\"navigation__item--currentPage\"";} ?> href = "index.php">
+			<a class = "navigation__item">
+			<?php if ($thisPage=="Index") {echo " id=\"navigation__item--currentPage\"";} ?> 
+			href = "index.php">
 				Home
 			</a>
 

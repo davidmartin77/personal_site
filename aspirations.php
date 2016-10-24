@@ -1,3 +1,15 @@
+<?php
+	$thisPage="Aspirations";
+
+// 	function iscurrentpage ($pagename, $currentpage) {
+
+// 		if ($pagename == $currentpage) {
+// 			echo "pageslist__pagesitem--current page";
+// 	}
+// }
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,19 +28,19 @@
 			<img src="computer code.jpg" class="topimages__item">
 			<img src="computer code.jpg" class="topimages__item">
 		</div>	
-		
+
 	</div>	
 
 	<Div class = "Topic">
 
 		<p> <em> Aspirations </em>
-		My professional goals are straightforward. I want to learn coding and make a career change. I'm hoping coding has some of the same elements that I loved about journalism: learning, writing and creativity. As someone who has never coded before, this decision is comes with a good deal of anxiety and uncertainty. After all, I am absolute beginner and not even a "digital native." I look forward to the day when I know enough to make a contribution somewhere. </p> 
+		My professional goals are straightforward. I want to learn coding and make a career change. I'm hoping coding has some of the same elements that I loved about journalism: <em> learning, writing and creativity. </em> As someone who has never coded before, this decision is comes with a good deal of anxiety and uncertainty. After all, I am absolute beginner and not even a "digital native." I look forward to the day when I know enough to make a contribution somewhere. </p> 
 
 	</Div>
 
 	<div class = "navigation">	
 	
-			<a class = "navigation__item" <?php if ($thisPage=="Index") {echo " id=\"navigation__item--currentPage\"";} ?> href = "index.php">
+			<a class = "navigation__item" <?php if ($thisPage=="Aspirations") {echo " id=\"navigation__item--currentPage\"";} ?> href = "index.php">
 				Home
 			</a>
 

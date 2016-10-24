@@ -1,3 +1,16 @@
+<?php
+	$thisPage="odds_and_ends";
+
+// 	function iscurrentpage ($pagename, $currentpage) {
+
+// 		if ($pagename == $currentpage) {
+// 			echo "pageslist__pagesitem--current page";
+// 	}
+// }
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -25,7 +38,7 @@
 
 <div class = "navigation">	
 	
-			<a class = "navigation__item" <?php if ($thisPage=="Index") {echo " id=\"navigation__item--currentPage\"";} ?> href = "index.php">
+			<a class = "navigation__item" <?php if ($thisPage=="odds_and_ends") {echo " id=\"navigation__item--currentPage\"";} ?> href = "index.php">
 				Home
 			</a>
 
