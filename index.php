@@ -1,13 +1,5 @@
 <?php
 	$thisPage="Home";
-
-// 	function iscurrentpage ($pagename, $currentpage) {
-
-// 		if ($pagename == $currentpage) {
-// 			echo "pageslist__pagesitem--current page";
-// 	}
-// }
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -71,7 +63,7 @@
 			</span>	
 	
 		
-	</div>	
+		</div>	
 
 	<?php include("navigation.php"); ?>
 
