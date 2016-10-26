@@ -58,14 +58,17 @@ a {
 	font-size: 40px;
 }
 
-.navigation {
+#navigation ul {
 	display: -webkit-flex;
 	-webkit-justify-content: space-around;
 	-webkit-align-items: flex-end;
 	padding-top: 50px;
 }
 
-.navigation__item {
+#navigation li {
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-align-items: flex-end;
 	height: 40px;
 	width: 400px;
 	background-color: #dddddd;
@@ -74,7 +77,13 @@ a {
 	border-width: 1px;
 	border-radius: 5px;
 }
-#navigation__item--currentPage {
+#navigation a {
+	color: #666666;
+	font-weight: bold;
+
+}
+
+#navigation #currentPage a {
 	display: -webkit-flex;
 	-webkit-justify-content: space-around;
 	-webkit-align-items: flex-end;

@@ -1,5 +1,5 @@
 <?php
-	$thisPage="Index";
+	$thisPage="Home";
 
 // 	function iscurrentpage ($pagename, $currentpage) {
 
@@ -73,27 +73,10 @@
 		
 	</div>	
 
-	<div class = "navigation">	
+	<?php include("navigation.php"); ?>
+
 	
-			<a class = "navigation__item">
-			<?php if ($thisPage=="Index") {echo " id=\"navigation__item--currentPage\"";} ?> 
-			href = "index.php">
-				Home
-			</a>
 
-		<div class = "navigation__item">
-			<a href = "aspirations.php">
-				<h1> Aspirations </h1>
-			</a>
-		</div>
-		
-		<div class = "navigation__item">
-			<a href = "odds_and_ends.php">
-				<h1> Odds and Ends </h1>
-			</a>
-		</div>
-
-	</div>
 
 </body>
 </html>
